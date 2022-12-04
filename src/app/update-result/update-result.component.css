@@ -1,0 +1,32 @@
+
+h4 {
+    padding-top: 1%;
+    padding-left: 8%;
+}
+
+.container {
+    color: black;
+    text-align: justify;
+}
+
+.form-group {
+    padding: 2%;
+}
+
+form {
+    font-size: 16px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 0%;
+    padding-bottom: 1.5%;
+}
+
+.form-control {
+    padding: 1%;
+    margin: 1%;
+}
+
+button {
+    background-color: rgb(120, 179, 237);
+    margin: 3%;
+}

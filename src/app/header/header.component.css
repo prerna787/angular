@@ -1,0 +1,22 @@
+.header {
+    padding-left: 8%;
+    background: rgb(62,180,137);
+    color: rgb(7, 47, 83);
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}  
+
+.brunch-pro .site-header{
+    background: transparent;
+}
+
+header.site-header {
+    background: none !important;
+  }
+
+a {
+    text-decoration: none;
+}

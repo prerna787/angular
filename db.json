@@ -1,0 +1,38 @@
+{
+  "Teacher": [
+    {
+      "user": "admin",
+      "pass": "admin"
+    },
+    {
+      "user": "teacher",
+      "pass": "teacher"
+    }
+  ],
+  "Result": [
+    {
+      "id": 2,
+      "name": "B",
+      "dob": "0002-02-02",
+      "score": 89
+    },
+    {
+      "id": 23,
+      "name": "abra ka dabra",
+      "dob": "0009-09-09",
+      "score": 100
+    },
+    {
+      "id": 34,
+      "name": "abhijeet 1",
+      "dob": "0001-09-09",
+      "score": 3
+    },
+    {
+      "id": 98,
+      "name": "Prerna",
+      "dob": "2000-10-07",
+      "score": 100
+    }
+  ]
+}

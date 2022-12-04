@@ -1,0 +1,47 @@
+<div class="background">
+    <div class="logout">
+        <p>Results of Students
+            <button id="lgtbtn" style= 'background-color: red;' class="btn btn-outline-danger" (click)="logOut()">LogOut</button>
+        </p>
+
+    </div>
+
+    <div class="add">
+        <h5>Total Students: {{result.length}}
+            <button id="addbtn" class="btn btn-primary " (click)="goToPage('AddResult')">Add Results</button>
+        </h5>
+    </div>
+    <div class="container">
+
+        <table id="result">
+            <tr>
+                <th *ngFor="let col of columns">
+                    {{col}}
+                </th>
+                <th>Actions</th>
+            </tr>
+
+            <tr *ngFor="let result of result">
+                <td>
+                    {{result.id}}
+                </td>
+                <td>
+                    {{result.name}}
+                </td>
+                <td>
+                    {{result.dob}}
+                </td>
+                <td>
+                    {{result.score}}
+                </td>
+                <td>
+                    <input type="button" class="btn btn-outline-danger" id="delete" value="Delete" (click)="onDelete(result.id)"><i class="bi bi-archive"></i><br>
+                    <input type="button" class="btn btn-outline-info" id="update" value="Update" (click)="onUpdate(result.id)">
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
